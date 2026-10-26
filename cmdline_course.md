@@ -8,37 +8,37 @@ layout: default
 
 ## Introduction
 
-I attended the Command-Line Course during my first year as a Dh master's student. During the course I learned how to use the command line to navigate files, process text, use CSC remote servers and use GitHub and version control. I also learned how to build and publish a simple websit using Jekyll and GitHub pages. 
-The course introduced some tools that will most likely be useful in my master's thesis and course projects in the future.
+I attended the Command-Line Course during my first year as a DH master's student. During the course I learned how to use the command line to navigate files, process text, use CSC remote servers and use GitHub and version control. I also learned how to build and publish a simple websit using Jekyll and GitHub pages. 
+The course introduced some tools that will most likely be usefull in my master's thesis and course projects in the future.
 
 ### Module 1: Introduction to Command-line Environments
 
 During the first week we learned about the command-line environment. We got to know the basic commands, how to change directory and manage files. We also briefly covered file permissions and terminal-based text editors.
 
-Here are some of the basic commands used:
+_Example:_Here are some of the basic commands used:
 ```bash
 pwd
 ls
 cd
-mkdir project
-cp notes.txt notes_backup.txt
-mv notes_backup.txt backup.txt
+mkdir
+cp life_of_bee.txt life_of_bee_backup.txt
+mv life_of_bee_backup.txt backup.txt
 ```
 * `pwd` command displays the current working directory.
 * `ls` lists files in the current working directory.
 * `cd` command changes directories.
-* `mkdir` creates a directory
-* `cp` copies a file
-* `mv` is used to  move or rename files.
+* `mkdir` creates a directory.
+* `cp` copies a file.
+* `mv` is used to move or rename files.
 
-This week helped me to get comfortable with working with a terminal and understand how file systems work. I have never used anything outside a graphical user interface, so everything was very new to me. Thankfully, I have always considered myself a fast learner and good with computers. Learning these basics provided me the foundation for the later modules on this course.
+This week helped me to get comfortable with working with a terminal and understand how file systems work. I have very limited previous experience in using something outside a graphical user interface, so everything was very new to me. Learning these basics provided me the foundation for the later modules on this course.
 
 ### Module 2: The UNIX file system
 
 During this module we focused on text processing, regular expressions and pipelines. We explored commands like grep, sed, sort, uniq, cut, and wc.
-These tools are especially relevant to corpus linguistics and digital humanities, because they allow large collections of text to me analysed.
+These tools are especially relevant to e.g. corpus linguistics, because they allow large collections of text to me analysed.
 
-Here is an example of pipelines:
+_Here is an example of pipelines:_
 ```bash
 sort words.txt | uniq -c | sort -nr
 ```
@@ -50,14 +50,14 @@ I learned that the relatively simple commands can be combined to perform more co
 
 In the 3rd module we learned to write our own scripts, how the if statement works, giving commands as the root user, installing python packages and more. We also learned how to create a virtual environment which helped with the course tasks.
 
-Example:
+_Example:_
 ```bash
 #!/bin/bash
 echo "${1}er"
 ```
 This script takes an English adjective  ending in a consonant and prints the comparative form by adding -er.
  
-This module showed me how to make workflow more efficient by using scripts. I also learned that environments can help with installing packages. I think these concepts will be useful when I start to develop more complex computational research workflows.
+This module showed me how to make workflow more efficient by using scripts. I also learned that environments can be useful when installing packages. I think these concepts will be useful when I start to develop more complex computational research workflows.
 
 ### Module 4: Using ssh, scp and Version Control
 
@@ -76,7 +76,7 @@ During this module I learned how to use GitHub and work with remote repositories
 During the final week we had to apply our knowledge of GitHub into creating a webpage on GitHub pages.  I published a website about a made-up person attending university and taking classes in made-up subjects. 
 This was done by using Jekyll, a static site generator. We also had to learn simple Markdown and use that knowledge in formatting the text on the created website.
 
-If I have installed Jekyll, I can preview the website locally by running:
+_Example:_If I have installed Jekyll, I can preview the website locally by running:
 
 ```bash
 bundle exec jekyll serve
@@ -86,7 +86,7 @@ This command gives me a local address which I can use to  check the website befo
 
 This experience helped me connect the different command-line skills. I have some previous html experience, so working with the files was fun and nostalgic. I also learned the importance of previewing changes locally, before pushing them to GitHub. 
 
-###  Useful commands 
+##  Useful commands 
 
 | Task | Command | Description |
 |---|---|---|
