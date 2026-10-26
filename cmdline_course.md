@@ -15,7 +15,7 @@ The course introduced some tools that will most likely be usefull in my master's
 
 During the first week we learned about the command-line environment. We got to know the basic commands, how to change directory and manage files. We also briefly covered file permissions and terminal-based text editors.
 
-_Example:_Here are some of the basic commands used:
+_Example:_ Here are some of the basic commands used:
 ```bash
 pwd
 ls
@@ -76,7 +76,7 @@ During this module I learned how to use GitHub and work with remote repositories
 During the final week we had to apply our knowledge of GitHub into creating a webpage on GitHub pages.  I published a website about a made-up person attending university and taking classes in made-up subjects. 
 This was done by using Jekyll, a static site generator. We also had to learn simple Markdown and use that knowledge in formatting the text on the created website.
 
-_Example:_If I have installed Jekyll, I can preview the website locally by running:
+_Example:_ If I have installed Jekyll, I can preview the website locally by running:
 
 ```bash
 bundle exec jekyll serve
