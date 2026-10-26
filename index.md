@@ -12,7 +12,7 @@ layout: default
 
 ## Find me on
 
-[GitHub] (https://github.com/iidmakk), [ESPN](https://www.espn.com/college-football/player/_/id/5082171/mohammed-bility)
+[GitHub](https://github.com/iidmakk), [ESPN](https://www.espn.com/college-football/player/_/id/5082171/mohammed-bility)
 
 ## Contact
 
